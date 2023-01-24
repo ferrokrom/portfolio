@@ -1,10 +1,9 @@
-import React, { useEffect, useLayoutEffect, useState, useRef } from "react";
-import useInView from "./hooks/useInView";
-import useRectBounding from "./hooks/useRectBounding";
+import React, { useRef } from "react";
+
+import useRectBounding from "../hooks/useRectBounding";
 
 const Contact = () => {
   const ref = useRef();
-  const [trasform, setTransform] = useState(0);
   const { isVisible } = useRectBounding(ref);
   return (
     <section

@@ -1,11 +1,11 @@
 import "./App.scss";
-import Header from "./Header";
-import Main from "./Main";
-import About from "./About";
-import Resume from "./Resume";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import { useEffect, useRef, useState } from "react";
 import useInView from "./hooks/useInView";
 

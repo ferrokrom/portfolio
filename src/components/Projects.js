@@ -1,13 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
-import useInView from "./hooks/useInView";
-import useRectBounding from "./hooks/useRectBounding";
-import photo1 from "./images/pexels-photo-14175961.jpg";
-import Agile from "./images/Agile.jpg";
-import sourtimes from "./images/sourtimes.jpg";
+import React, { useRef } from "react";
+import useRectBounding from "../hooks/useRectBounding";
+import Agile from "../images/Agile.jpg";
+import sourtimes from "../images/sourtimes.jpg";
 
 const Projects = () => {
   const ref = useRef();
-  const [trasform, setTransform] = useState(false);
 
   const { isVisible } = useRectBounding(ref);
 
@@ -44,6 +41,7 @@ const Projects = () => {
                   <a
                     href="https://agileboardapp.azurewebsites.net/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Agile App
                   </a>
@@ -87,6 +85,7 @@ const Projects = () => {
                   <a
                     href="https://stver3.azurewebsites.net/tech"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Daily News Social Media App with Admin Panel
                   </a>

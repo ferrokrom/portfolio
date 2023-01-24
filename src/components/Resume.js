@@ -1,6 +1,6 @@
-import React, { useEffect, useLayoutEffect, useState, useRef } from "react";
-import useInView from "./hooks/useInView";
-import useRectBounding from "./hooks/useRectBounding";
+import React, { useEffect, useState, useRef } from "react";
+
+import useRectBounding from "../hooks/useRectBounding";
 
 const Resume = () => {
   const ref = useRef();

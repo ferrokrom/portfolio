@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import useRectBounding from "./hooks/useRectBounding";
+import useRectBounding from "../hooks/useRectBounding";
 
 function Skills() {
   const ref = useRef();
