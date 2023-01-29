@@ -5,13 +5,13 @@ function Main() {
     <section className="ftco-section " id="home-section">
       <div className="container">
         <div className="row d-md-flex no-gutters">
-          <div className="col-sm-1 col-md-6 text-start mt-5  ">
+          <div className="col-sm-1 col-md-6 text-start md:mt-3 ">
             <div className="text left-main mr-2">
               <span className="subheading">Hello!</span>
               <h1 className="mb-1 mt-1">
                 I'm <span>Ferhat Ogras</span>
               </h1>
-              <h2 className="mb-4">Software Developer</h2>
+
               <p className="mt-4 " style={{ fontSize: "14px" }}>
                 I am a full stack engineer with a passion for solving complex
                 problems and building scalable, intuitive software.

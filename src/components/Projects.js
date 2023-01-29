@@ -83,7 +83,7 @@ const Projects = () => {
               <div className="text text-center p-4">
                 <h3>
                   <a
-                    href="https://stver3.azurewebsites.net/tech"
+                    href="https://sourtimes.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
