@@ -42,7 +42,7 @@ const Resume = () => {
               <h4>Bachelor of Computer Science</h4>
               <span className="position">Istanbul University-Turkey</span>
             </div>
-            <div className="resume-wrap d-flex align-items-center gap-3 justify-content-between">
+            <div className="resume-wrap d-flex md:flex-column align-items-center gap-3 justify-content-between">
               <span className="date">2008-2010</span>
               <h4>Master's Degree of Management and Organization</h4>
               <span className="position">Marmara University-Turkey</span>

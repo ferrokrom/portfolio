@@ -1,14 +1,20 @@
 import React from "react";
+import ben from "../images/benfour.jpg";
+import reactlogo from "../images/react.png";
+import jslogo from "../images/tslogo.png";
+import netlogo from "../images/netthree.png";
+import mysqllogo from "../images/mysql2.png";
+import nodejs from "../images/nodejs3.png";
 
 function Main() {
   return (
     <section className="ftco-section " id="home-section">
       <div className="container">
-        <div className="row d-md-flex no-gutters">
+        <div className="row d-md-flex no-gutters md:mt-4">
           <div className="col-sm-1 col-md-6 text-start md:mt-3 ">
             <div className="text left-main mr-2">
               <span className="subheading">Hello!</span>
-              <h1 className="mb-1 mt-1">
+              <h1 className="mb-1">
                 I'm <span>Ferhat Ogras</span>
               </h1>
 
@@ -35,10 +41,30 @@ function Main() {
                 role and make a meaningful impact at your next project.
               </p>
             </div>
+            <div className="skillset">
+              <div className="ben-logo">
+                {" "}
+                <img src={jslogo} className="logoicons" />
+              </div>
+              <div className="ben-logo">
+                <img src={reactlogo} className="logoicons" />
+              </div>
+              <div className="ben-logo">
+                <img src={nodejs} className="logoicons" />
+              </div>
+              <div className="ben-logo">
+                <img src={netlogo} className="logoicons" />
+              </div>
+              <div className="ben-logo">
+                <img src={mysqllogo} className="logoicons" />
+              </div>
+            </div>
           </div>
-          <div className="col-lg-1 col-md-6 text-start mt-5 ">
-            <div className="text left-main">
-              <img src="https://img.freepik.com/free-photo/turned-gray-laptop-computer_400718-47.jpg?t=st=1672848463~exp=1672849063~hmac=0e78cc69053bf9d1ec4a9c5885fea0afb0cb9f4c3d257b56a1355280387d48b4" />
+          <div className="col-lg-6 col-md-6  mt-5  ">
+            <div className="right-section">
+              <div className="ben">
+                <img src={ben} className="ben-img" />
+              </div>
             </div>
           </div>
         </div>

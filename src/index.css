@@ -1,13 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.project-bg {
+  background: #203244;
+  border-radius: 9px;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  padding: 20px;
+}
+.ben {
+  background: #203244;
+  border-radius: 9px;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  padding: 20px;
+}
+.ben-img {
+  width: 410px;
+}
+@media only screen and (max-width: 600px) {
+  .ben-img {
+    width: 320px;
+  }
+  .logoicons {
+    width: 45px;
+  }
+  .ben {
+    padding: 20px;
+  }
+}
+.skillset {
+  display: flex;
+  gap: 10px;
+}
+.logoicons {
+  width: 35px;
+}
+.ben-logo {
+  background: #203244;
+  border-radius: 9px;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section {
+  display: flex;
+  justify-content: flex-end;
 }
